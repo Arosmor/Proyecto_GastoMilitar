@@ -7,9 +7,10 @@ import java.io.FileReader;
 import javafx.stage.Stage;
 
 
-public class FicheroGastoMilitar {
+public class UtilCSV {
 
-    public static void fichero(Stage stage) {
+    
+    public static void leerDatos(Stage stage) {
 //    int valores = 0;
     String nombreFichero = "military-expenditure-total.csv";
     // Declarar una variable BufferedReader
