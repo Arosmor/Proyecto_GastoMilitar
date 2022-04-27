@@ -23,16 +23,16 @@ public class App extends Application {
         var scene = new Scene(root, 640, 480);
         stage.setScene(scene);
         stage.show();
-        HBox.getChildren.add();
+//        HBox.getChildren.add();
         
         UtilCSV ficheroGastoMilitar = new UtilCSV();
         UtilCSV.leerDatos(stage);
         
         ArrayList<String> lista = new ArrayList();
-//        lista.add(UtilCSV.leerDatos(stage);
-//        lista.add("Codigo");
-//        lista.add("Año");
-//        lista.add("Gasto");
+        lista.add("Nombre");
+        lista.add("Codigo");
+        lista.add("Año");
+        lista.add("Gasto");
         
 //        GastoMilitar gastoMilitar1 = new GastoMilitar();
 //        gastoMilitar1.setNombrePais("España");

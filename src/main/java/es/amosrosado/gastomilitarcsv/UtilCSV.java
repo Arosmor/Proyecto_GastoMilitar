@@ -26,6 +26,7 @@ public class UtilCSV {
                 String[] valores = texto.split(",");
                 String nombre = valores[0];
                 System.out.println(nombre);
+                
             // Leer la siguiente línea
             texto = br.readLine();
         }
